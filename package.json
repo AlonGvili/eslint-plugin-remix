@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-remix",
+  "name": "@alongvili/eslint-plugin-remix",
   "version": "0.1.0",
   "description": "eslint custom rules for remix.run framework, for make sure you export all the route functions",
   "keywords": [
@@ -28,5 +28,17 @@
   "peerDependencies": {
     "eslint": ">=0.8.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlonGvili/eslint-plugin-remix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlonGvili/eslint-plugin-remix/issues"
+  },
+  "homepage": "https://github.com/AlonGvili/eslint-plugin-remix#readme"
 }
