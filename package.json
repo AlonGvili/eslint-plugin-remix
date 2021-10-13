@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-remix",
+  "version": "0.1.0",
+  "description": "eslint custom rules for remix.run framework, for make sure you export all the route functions",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "alon gvili",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-plugin-eslint-plugin": "^3.2.0",
+    "eslint-plugin-node": "^11.0.0",
+    "mocha": "^9.0.0"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
+  "license": "ISC"
+}
