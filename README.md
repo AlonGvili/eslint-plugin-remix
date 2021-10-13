@@ -10,10 +10,10 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-remix`:
+Next, install `@alongvili/eslint-plugin-remix`:
 
 ```sh
-npm install eslint-plugin-remix --save-dev
+npm install @alongvili/eslint-plugin-remix --save-dev
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Add `remix` to the plugins section of your `.eslintrc` configuration file. You c
 ```json
 {
     "plugins": [
-        "remix"
+        "@alongvili/remix"
     ]
 }
 ```
@@ -34,10 +34,10 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "remix/route-loader-exported": 2,
-        "remix/route-action-exported": 2,
-        "remix/route-links-exported": 2,
-        "remix/route-meta-exported": 2,
+        "@alongvili/remix/route-loader-exported": 2,
+        "@alongvili/remix/route-action-exported": 2,
+        "@alongvili/remix/route-links-exported": 2,
+        "@alongvili/remix/route-meta-exported": 2,
     }
 }
 ```
