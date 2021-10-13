@@ -1,6 +1,6 @@
 # eslint-plugin-remix
 
-Very simple eslint plugin for Remix.run framework, this plugin check that you export route function like loader, action, meta, links
+Very simple eslint plugin for Remix.run framework, this plugin check that you don't forget to export route functions like loader, action, meta, links
 
 ## Installation
 
